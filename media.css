@@ -1,0 +1,34 @@
+body {
+    border: solid black;
+    /* padding: 10px; */
+    ;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex; 
+}
+
+.one {
+    border: 5px solid black;
+    height: 300px;
+    width: 150px;
+    margin: 7px;
+}
+
+.two{
+    border: 5px solid black;
+    width: fit-content;
+    height: 250px;
+    margin: 7px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
